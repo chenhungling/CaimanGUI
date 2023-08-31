@@ -1,0 +1,33 @@
+{
+    "nwbfile": {
+        "session_description": "",
+        "identifier": null,
+        "session_start_time": "2021-01-01-12-59-59",
+        "institution": "Physiology I, University of Freiburg",
+        "experimenter": "Your name",
+        "experiment_description": ""
+    },
+    "device": {
+        "name": "Miniscope",
+        "description": "",
+        "manufacturer": "Inscopix"
+    },
+    "channel": {
+        "name": "OpticalChannel",
+        "description": "Epifluorescence with CMOS camera",
+        "emission_lambda": 515.0
+    },
+    "plane": {
+        "name": "ImagingPlane",
+        "description": "Objective lens...",
+        "excitation_lambda": 455.0,
+        "indicator": "GCaMP6f",
+        "location": "Somewhere in the brain",
+        "imaging_rate": 20.0,
+        "grid_spacing": [
+            0.8,
+            0.8
+        ],
+        "grid_spacing_unit": "micrometers"
+    }
+}
